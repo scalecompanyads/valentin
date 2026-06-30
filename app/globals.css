@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+/* ── Paleta de cores ─────────────────────────────────────────── */
+@theme {
+  --color-navy:       #171717;
+  --color-navy-dark:  #000000;
+  --color-gold:       #404040;
+  --color-gold-light: #737373;
+  --color-offwhite:   #f5f5f5;
+  --color-charcoal:   #111111;
+  --color-stone:      #737373;
+}
+
+/* ── Fontes (referencia as CSS vars injetadas pelo next/font) ── */
+@theme inline {
+  --font-serif: var(--font-cormorant);
+  --font-sans:  var(--font-inter);
+}
+
+/* ── Base ────────────────────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-offwhite);
+  color: var(--color-charcoal);
+}
+
+/* Respeita prefers-reduced-motion globalmente */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
