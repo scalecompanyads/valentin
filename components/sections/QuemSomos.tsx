@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle, ArrowRight } from "lucide-react";
 import { AnimatedGroup, AnimatedItem, AnimatedText } from "@/components/ui/AnimatedText";
-import { SectionLabel } from "@/components/ui/SectionLabel";
 import { SectionWrapper } from "@/components/ui/Section";
 
 const destaques = [
@@ -30,10 +29,6 @@ export function QuemSomos() {
         <div className="w-full lg:w-1/2 lg:h-[78vh] lg:flex lg:items-center">
           <div className="w-full max-w-4xl px-6 md:px-8 lg:pl-8 lg:pr-16 xl:pl-10 xl:pr-20 pt-6 pb-10 md:py-20 lg:py-0">
             <AnimatedGroup>
-              <AnimatedItem>
-                <SectionLabel>Tradição e Posicionamento</SectionLabel>
-              </AnimatedItem>
-
               <AnimatedItem>
                 <h2 className="font-serif text-navy text-4xl md:text-5xl font-medium leading-[1.15] mb-6">
                   Uma advocacia que une experiência de alto nível e proximidade com o
