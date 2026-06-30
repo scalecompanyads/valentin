@@ -106,7 +106,7 @@ export default async function AreaPage({
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       {/* Hero */}
-      <div className="relative pt-32 min-h-[50vh] flex items-center bg-black overflow-hidden">
+      <div className="relative pt-32 min-h-[50vh] flex flex-col justify-end bg-black overflow-hidden">
         {area.image && (
           <Image
             src={area.image}
@@ -118,10 +118,10 @@ export default async function AreaPage({
           />
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
-        
-        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-8 lg:px-16 pt-10 pb-0">
-          <nav aria-label="Breadcrumb">
-            <ol className="flex items-center gap-1.5 font-sans text-xs text-white/50">
+
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-8 lg:px-16 pt-8 pb-12 md:py-24">
+          <nav aria-label="Breadcrumb" className="mb-6 md:mb-8">
+            <ol className="flex flex-wrap items-center gap-x-1.5 gap-y-1 font-sans text-xs text-white/50">
               <li><Link href="/" className="hover:text-gold transition-colors">Home</Link></li>
               <li aria-hidden="true"><ChevronRight size={11} /></li>
               <li><Link href="/areas-de-atuacao" className="hover:text-gold transition-colors">Áreas de Atuação</Link></li>
@@ -129,9 +129,7 @@ export default async function AreaPage({
               <li className="text-white/80" aria-current="page">{area.titulo}</li>
             </ol>
           </nav>
-        </div>
 
-        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-8 lg:px-16 py-16 md:py-24">
           <AnimatedText as="div">
             <SectionLabel light>{area.subtitulo}</SectionLabel>
           </AnimatedText>

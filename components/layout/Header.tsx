@@ -97,7 +97,7 @@ export function Header() {
             width={210}
             height={62}
             priority
-            className="h-auto w-[170px] md:w-[190px]"
+            className="h-auto w-[119px] md:w-[190px]"
           />
         </Link>
 
