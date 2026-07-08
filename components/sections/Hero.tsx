@@ -33,7 +33,7 @@ export function Hero() {
       aria-labelledby="hero-heading"
     >
       <Image
-        src="/images/bg-mobile.jpg"
+        src="/images/bg-mobile-12.jpg"
         alt="Valentin Perin no escritório"
         fill
         priority
@@ -42,21 +42,21 @@ export function Hero() {
       />
 
       <Image
-        src="/images/desktop-valentin (1) copiar2.jpg"
+        src="/images/desktop-valentin-23.jpg"
         alt="Valentin Perin no escritório"
         fill
         priority
         sizes="100vw"
-        className="hidden object-cover object-center md:block"
+        className="hidden object-cover object-[72%_center] md:block lg:object-[68%_center]"
       />
 
       <div
-        className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/40 to-transparent md:from-black/85 md:via-black/35 lg:via-transparent"
+        className="absolute inset-0 hidden md:block bg-gradient-to-r from-black/85 via-black/35 to-transparent lg:via-transparent"
         aria-hidden="true"
       />
 
       <div
-        className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.1),transparent_45%)]"
+        className="absolute inset-0 hidden md:block bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.1),transparent_45%)]"
         aria-hidden="true"
       />
 
@@ -71,7 +71,7 @@ export function Hero() {
           variants={prefersReduced ? undefined : containerVariants}
           initial={prefersReduced ? false : "hidden"}
           animate="visible"
-          className="max-w-[20rem] sm:max-w-md md:max-w-xl lg:max-w-2xl xl:max-w-4xl 2xl:max-w-5xl"
+          className="max-w-[24rem] sm:max-w-md md:max-w-xl lg:max-w-2xl xl:max-w-4xl 2xl:max-w-5xl"
         >
           {/* Sobretítulo */}
           <motion.p
@@ -89,12 +89,7 @@ export function Hero() {
           >
             Defesa técnica.
             <br />
-            <span className="hidden md:inline">Atendimento premium.</span>
-            <span className="md:hidden">
-              Atendimento
-              <br />
-              premium.
-            </span>
+            Atendimento premium.
           </motion.h1>
 
           {/* Linha dourada */}
