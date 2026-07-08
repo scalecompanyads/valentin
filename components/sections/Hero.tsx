@@ -42,12 +42,13 @@ export function Hero() {
       />
 
       <Image
-        src="/images/desktop-valentin-23.jpg"
+        src="/images/desktop-valentin-232.jpg"
         alt="Valentin Perin no escritório"
         fill
         priority
+        unoptimized
         sizes="100vw"
-        className="hidden object-cover object-[72%_center] md:block lg:object-[68%_center]"
+        className="hidden object-cover object-right md:block"
       />
 
       <div
