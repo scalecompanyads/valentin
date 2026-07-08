@@ -125,7 +125,7 @@ export function Header() {
                       <Link
                         key={child.href}
                         href={child.href}
-                        className="group/card relative block min-h-[148px] overflow-hidden"
+                        className="group/card relative block min-h-[350px] overflow-hidden"
                       >
                         <Image
                           src={child.image}
