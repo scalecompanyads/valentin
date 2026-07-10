@@ -32,9 +32,9 @@ const cards = [
 
 /* Números de prova social — [A CONFIRMAR] */
 const numeros = [
-  { valor: "527+", label: "Clientes atendidos" },
-  { valor: "11", label: "Anos de atuação" },
-  { valor: "4.9", label: "Avaliação média" },
+  { valor: "1000+", label: "Clientes atendidos" },
+  { valor: "XX", label: "Anos de atuação" },
+  { valor: "4.9/5", label: "Avaliação média" },
   { valor: "100%", label: "Atendimento digital" },
 ];
 

@@ -250,6 +250,55 @@ Se uma empresa cobra valor que você não deve, ou usa práticas abusivas (liga�
 Em muitos casos, o processo pode ser feito de forma ágil e sem custo inicial para o consumidor.
     `.trim(),
   },
+  {
+    slug: "direito-administrativo-quando-buscar-um-advogado",
+    title: "Direito Administrativo: quando buscar um advogado",
+    category: "Administrativo",
+    summary:
+      "Concursos, servidores públicos, multas do poder público e mandado de segurança — entenda quando agir e por que os prazos importam.",
+    date: "2026-07-10",
+    readingTime: "5 min",
+    coverImage: "/images/blog/blog-capa-direito-administrativo.jpg",
+    author: "André Valentin Perin",
+    relatedAreaSlug: "administrativo",
+    relatedAreaTitulo: "Direito Administrativo",
+    body: `
+Relações com a Administração Pública — concursos, servidores, autarquias, multas e licitações — seguem regras próprias. Em muitos casos, o prejuízo só se agrava quando a pessoa demora para buscar orientação jurídica.
+
+## O que é o Direito Administrativo?
+
+É o ramo do Direito que regula a atuação do Estado e das entidades públicas, bem como a relação entre o poder público e os cidadãos. Na prática, envolve desde a aprovação em concurso até a defesa de servidores em processos disciplinares.
+
+## Situações em que vale a pena consultar um advogado
+
+- **Concurso público**: eliminação contestável, anulação de questão, erro de correção ou edital com exigência ilegal
+- **Servidor público**: punição disciplinar, negativa de promoção, remoção ou direito não reconhecido
+- **Multas e sanções**: autuações de órgãos públicos ou agências reguladoras que você considera indevidas
+- **Mandado de segurança**: quando um ato da Administração viola direito líquido e certo e a resposta precisa ser rápida
+- **Dano causado pelo Estado**: acidente, omissão ou conduta estatal que gerou prejuízo material ou moral
+
+## Por que os prazos são decisivos?
+
+No Direito Administrativo, perder o prazo costuma significar perder o direito. Recursos em concursos, impugnações de edital e mandados de segurança têm janelas curtas — muitas vezes contadas em dias.
+
+Por isso, guardar documentos, protocolos e comunicações oficiais desde o início é fundamental.
+
+## Recurso administrativo ou ação judicial?
+
+Nem sempre é necessário ir direto à Justiça. Em diversos casos, um recurso administrativo bem fundamentado resolve a situação com mais rapidez e menor custo.
+
+Quando o caminho interno não funciona — ou quando o prazo exige tutela urgente — a via judicial, incluindo o mandado de segurança, pode ser a alternativa correta.
+
+## O que fazer agora?
+
+- Reúna edital, portaria, notificação ou decisão que gerou o problema
+- Anote datas, prazos e protocolos
+- Evite assinar declarações ou desistir de recursos sem entender as consequências
+- Consulte um advogado administrativista para avaliar a melhor estratégia
+
+Com análise técnica e timing adequado, é possível reverter decisões, preservar direitos e, quando cabível, obter indenização por danos causados pelo poder público.
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
